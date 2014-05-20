@@ -14,6 +14,8 @@ public:
     }
 };
 
+//new comment
+
 int main( void )
 {
     vector<int> v5(5);
@@ -21,4 +23,3 @@ int main( void )
     for_each( v5.rbegin(), v5.rend(), PrintInt() );
     cout << endl;
 }
-
